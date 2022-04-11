@@ -1,0 +1,12 @@
+[package]
+name = "attribute-macros-usage"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "attribute-macros-usage"
+
+[dependencies]
+attribute-macros = { path = "../attribute-macros" }

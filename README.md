@@ -1,2 +1,2 @@
 # examples.rs
-Useful Rust examples
+Useful Rust language examples
