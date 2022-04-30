@@ -7,7 +7,7 @@ description = "Useful Rust language examples"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-[[bin]]
+[[example]]
 name = "attribute-macros-usage"
 path = "attribute-macros-usage/src/main.rs"
 
