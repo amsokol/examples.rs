@@ -1,18 +1,2 @@
-[package]
-name = "examples"
-authors = ["Aleksandr Sokolovskii <amsokol+github@gmail.com>"]
-version = "0.1.0"
-repository = "https://github.com/amsokol/examples.rs"
-description = "Useful Rust language examples"
-edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-[[example]]
-name = "attribute-macros-usage"
-path = "attribute-macros-usage/src/main.rs"
-
-[dependencies]
-attribute-macros = { path = "./attribute-macros" }
-
 [workspace]
 members = ["attribute-macros", "attribute-macros-usage"]

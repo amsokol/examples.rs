@@ -1,6 +1,9 @@
 [package]
 name = "attribute-macros"
+authors = ["Aleksandr Sokolovskii <amsokol+github@gmail.com>"]
 version = "0.1.0"
+repository = "https://github.com/amsokol/examples.rs/attribute-macros"
+description = "Attribute macros library example"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
