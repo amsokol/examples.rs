@@ -1,2 +1,2 @@
 [workspace]
-members = ["attribute-macros", "attribute-macros-usage"]
+members = ["attribute-macros", "attribute-macros-usage", "axum-usage"]
