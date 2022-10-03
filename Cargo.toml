@@ -1,7 +1,13 @@
 [workspace]
+resolver = "2"
 members = [
     "attribute-macros",
     "attribute-macros-usage",
     "axum-usage",
+    "clap-usage",
     "type-name-size",
+    "relm4-app1",
+    "vte4-app1",
+    "relm4-vte4-app1",
+    "iced-hello_world",
 ]

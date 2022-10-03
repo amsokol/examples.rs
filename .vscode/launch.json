@@ -1,0 +1,158 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'attribute-macros-usage'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=attribute-macros-usage",
+                    "--package=attribute-macros-usage"
+                ],
+                "filter": {
+                    "name": "attribute-macros-usage",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'attribute-macros-usage'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=attribute-macros-usage",
+                    "--package=attribute-macros-usage"
+                ],
+                "filter": {
+                    "name": "attribute-macros-usage",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'axum-usage'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=axum-usage",
+                    "--package=axum-usage"
+                ],
+                "filter": {
+                    "name": "axum-usage",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'axum-usage'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=axum-usage",
+                    "--package=axum-usage"
+                ],
+                "filter": {
+                    "name": "axum-usage",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'clap-usage'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=clap-usage",
+                    "--package=clap-usage"
+                ],
+                "filter": {
+                    "name": "clap-usage",
+                    "kind": "bin"
+                }
+            },
+            "args": [
+                "add"
+            ],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'clap-usage'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=clap-usage",
+                    "--package=clap-usage"
+                ],
+                "filter": {
+                    "name": "clap-usage",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'type-name-size'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=type-name-size",
+                    "--package=type-name-size"
+                ],
+                "filter": {
+                    "name": "type-name-size",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'type-name-size'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=type-name-size",
+                    "--package=type-name-size"
+                ],
+                "filter": {
+                    "name": "type-name-size",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
